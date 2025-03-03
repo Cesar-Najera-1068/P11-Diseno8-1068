@@ -43,7 +43,7 @@ class MiContainer extends StatelessWidget {
                       height: 90,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        border: Border.all(color: Colors.black, width: 2),
+                        border: Border.all(color: Colors.black, width: 3),
                       ),
                     ),
                     // Círculo rojo
@@ -52,6 +52,7 @@ class MiContainer extends StatelessWidget {
                       height: 90,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
+                        border: Border.all(color: Colors.black, width: 1),
                         color: Colors.red,
                       ),
                     ),
@@ -61,6 +62,7 @@ class MiContainer extends StatelessWidget {
                       height: 90,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
+                        border: Border.all(color: Colors.black, width: 1),
                         image: DecorationImage(
                           image: NetworkImage('https://raw.githubusercontent.com/Cesar-Najera-1068/Central_Camionera_imagenes_appflutter/refs/heads/main/camion1.jpg'), // Reemplaza con la URL de tu imagen
                           fit: BoxFit.cover,
